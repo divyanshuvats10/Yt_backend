@@ -59,7 +59,7 @@ const PlayVideo = ({ videoId }) => {
             <div className="publisher">
                 <img src={channelData ? value_converter(channelData.snippet.thumbnails.default.url) : ""} alt="" />
                 <div>
-                    {/* GreatStack */}
+                    {/* Sumantyadav */}
                     <p>{apiData ? apiData.snippet.channelTitle : ""}</p>
                     {/* 500K Subscribers */}
                     <span>{channelData ? value_converter(channelData.statistics.subscriberCount) : "1M"} Subscribers</span>

@@ -7,9 +7,7 @@ import { useParams } from "react-router-dom";
 const Video = () => {
 
   const {videoId,categoryId} = useParams();
-  // useEffect(()=>{
-  //   console.log(id);
-  // },[])
+ 
 
   return (
       <div className="play-container">
